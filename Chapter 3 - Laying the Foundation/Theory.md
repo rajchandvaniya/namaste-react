@@ -14,5 +14,5 @@ It can be used with JS control structures if-else, for loop, map etc. It is more
 
 ## Difference between follwing in JSX
 * {TitleComponent} - This will embed JS variable.
-* <TitleComponent /> - way to use react component which is a function that returns JSX.
-* <TitleComponent /> and <TitleComponent></TitleComponent> are identical if there are no children tags in the latter.
+* `<TitleComponent />` - way to use react component which is a function that returns JSX.
+* `<TitleComponent />` and `<TitleComponent></TitleComponent>` are identical if there are no children tags in the latter.

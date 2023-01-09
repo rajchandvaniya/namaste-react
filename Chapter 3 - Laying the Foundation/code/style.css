@@ -1,0 +1,15 @@
+#logo > img {
+    height: 4em;
+}
+#user > span {
+    font-size: 30px;
+    color: white;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #242526;
+}

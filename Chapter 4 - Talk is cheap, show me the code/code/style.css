@@ -1,0 +1,74 @@
+#root {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* HEADER CSS */
+.header {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(255, 123, 0);
+}
+
+.header > ul {
+    list-style-type: none;
+    display: flex;
+}
+
+.header > ul > li {
+    padding: 20px;
+}
+
+.header > img {
+    height: 100px
+}
+
+.header > ul > li > img {
+    height: 40px;
+}
+
+/* FOOTER CSS */
+.footer {
+    border: 1px solid rgb(255, 123, 0);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: medium;
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+
+/* BODY CSS */
+.body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.restaurant-card {
+    border: 1px solid rgb(255, 123, 0);
+    width: 250px;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.restaurant-card img {
+    width: 100%;
+}
+
+.location-rating {
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-to-cart-button {
+    background-color: rgb(255, 123, 0);
+    border: 0px;
+    padding: 10px;
+    color: white;
+}

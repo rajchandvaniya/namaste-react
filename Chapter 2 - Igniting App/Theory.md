@@ -34,6 +34,10 @@ HMR is the feature of a live server wherein the locally running server dynamical
 * `package.json` - specifies dependencies, devDependencies, scripts and other project metadata
 * `package-lock.json` - specifies hash, exact version of the dependencies, direct and transitive. dependencies allows using `^` and `~` to specify pattern for allowed versions for auto-upgrade. `package-lock.json` is used to store the exact version which was installed. It should always be version controlled so that in production also the same version as the local development is used.
 
+## Tilde `~` and Carrot `^` in `package.json`?
+* `~version`: “Approximately equivalent to version”, will update you to all future patch versions, without incrementing the minor version. ~1.2.3 will use releases from 1.2.3 to <1.3.0.
+* `^version`: “Compatible with version”, will update you to all future minor/patch versions, without incrementing the major version. ^2.3.4 will use releases from 2.3.4 to <3.0.0.
+
 ## Why I should not modify `package-lock.json`?
 Any manual change to version in package-lock can result in `npm install` failures, since for each package sha-512 hash is also stored for integrity. If you eithe change the version or hash, it can cause failure.
 
